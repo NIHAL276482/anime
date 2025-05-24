@@ -6,3 +6,7 @@ account_id = "c29cea07f556929b07b9c9d5fe72e742"
 
 [build]
 command = "bun run build"
+
+[[routes]]
+pattern = "anime.hosters.club"
+custom_domain = true
