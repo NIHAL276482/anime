@@ -1,0 +1,8 @@
+name = "anime-api"
+main = "dist/index.js"
+compatibility_date = "2025-05-24"
+workers_dev = true
+account_id = "c29cea07f556929b07b9c9d5fe72e742"
+
+[build]
+command = "npm run build"
