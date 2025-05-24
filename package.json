@@ -1,15 +1,16 @@
 {
-  "name": "anime-api",
+  "name": "anime",
   "version": "1.0.0",
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "npx wrangler dev",
     "build": "esbuild api/anime/info.js --bundle --platform=neutral --target=es2020 --outfile=dist/index.js",
-    "deploy": "wrangler deploy"
+    "deploy": "npx wrangler deploy"
   },
   "dependencies": {
     "hono": "^4.6.3"
   },
   "devDependencies": {
-    "esbuild": "^0.23.0"
+    "esbuild": "^0.23.0",
+    "wrangler": "^3.80.0"
   }
 }
